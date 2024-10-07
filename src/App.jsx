@@ -1,9 +1,12 @@
 import React from 'react'
+import Background from './components/Background'
+import Forground from './components/Forground'
 
 const App = () => {
   return (
-    <div>
-      <h1 className='mt-5' >helo</h1>
+    <div className='bg-black h-screen w-full relative '>  
+    <Background/>
+    <Forground/>
     </div>
   )
 }
