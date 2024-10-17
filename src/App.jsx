@@ -7,7 +7,7 @@ const App = () => {
     <div className='bg-black h-screen w-full relative '>  
     <Background/>
     <Forground/>
-    </div>
+        </div>
   )
 }
 
