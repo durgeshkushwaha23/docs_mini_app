@@ -13,7 +13,7 @@ const Card = ({ data, reference }) => {
         dragConstraints={reference}
         dragTransition={{bounceDamping:100, bounceStiffness:100}}
         whileDrag={{ scale: 1.1 }}
-        className="ml-3 mt-2 card relative p-3 h-72 w-52 bg-white rounded-md text-white"
+        className="ml-3 mt-2 card relative p-3 h-72 w-52 bg-gray-900 rounded-md text-white"
       >
         <FaFileAlt />
         <p className="mt-4 leading-tight">{data.decs}</p>
